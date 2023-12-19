@@ -18,7 +18,7 @@ function NavigationBar () {
               <a class="nav-link" href="#home">Places <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="news/news.html">Social asdad</a>
+              <a class="nav-link" href="news/news.html">Social Media</a>
             </li>
           </ul> 
         </div>
