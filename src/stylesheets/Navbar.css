@@ -1,0 +1,87 @@
+
+.navbar{
+  background-color: white !important;
+  color: #475f84 !important;
+  width: 100%;
+}
+.navbar-brand{
+  color: #475f84 !important;
+}
+.LogoNav{
+  height: 34px;
+}
+.navbar-item{
+  color: #475f84 !important;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+  color: #475f84 !important;
+}
+.navbar-brand{
+  max-height: 10vh;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+
+}
+.navbar-toggler{
+  color: #475f84 !important; 
+}
+
+.custom-toggler.navbar-toggler{
+  border-color: #475f84;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* ########## */
+
+.navbar.navbar-expand-lg { 
+  background-color:#6b7fdf;
+  height: auto;
+  width: 100%;
+}
+.nav-link{
+  color: #475f84 !important;
+}
+.nav-link.dropdown-toggle {
+color: #475f84;
+font-weight: bold;
+margin-right: 0 auto;
+}
+.navbar-toggler{
+  border: 1px solid #475f84;
+  color: #475f84 !important; 
+}
+
+.nav-link{
+  color: #475f84 !important;
+  display: inline-block;
+  font-size: 80%;
+  position: relative;
+}
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #475f84;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
